@@ -1,0 +1,222 @@
+/* styles.css */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #c5b9b9;
+} */
+
+.ab-header {
+  color: #ca0d9b;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.ab-header,
+.ab-text {
+  color: #f0e8ee;
+}
+
+.ab-text {
+  color: #fce8e8;
+  line-height: 1.5;
+}
+
+.ab-link {
+  text-decoration: none;
+  color: #c2239a;
+}
+
+/* Header */
+.ab-header-section {
+  background-color: #f7ebf2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.ab-header-section h1 {
+  color: #fff;
+}
+
+/* Banner Section */
+#ab-Landingbannerwrapper {
+  position: relative;
+  text-align: center;
+}
+
+#ab-Landingbannerwrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.landing-banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.landing-banner-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #f0e6ed;
+  font-family: Sans-serif;
+  font-style: Arial Black;
+}
+
+.slider-caption {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #f0e6ed;
+}
+
+.para {
+  color: #f0f0f0;
+  font-size: 20px;
+}
+
+/* Mission Section */
+.ab-bod-card {
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  margin-left: 1.5cm;
+  margin-right: 1.5cm;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: darkkhaki;
+}
+
+.ab-bod-card1 {
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  margin-left: 1.5cm;
+  margin-right: 1.5cm;
+  background-color: #f36745;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(248, 200, 145);
+}
+
+.ab-section-heading {
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ab-section-subheading {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.ab-key-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ab-key-card {
+  width: 300px;
+  height: 550px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: darkorange;
+  transition: transform 0.3s ease;
+}
+
+.ab-key-card1 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(247, 220, 70);
+  transition: transform 0.3s ease;
+}
+
+.ab-key-card:hover {
+  transform: translateY(-20px);
+}
+
+.ab-key-card1:hover {
+  transform: translateY(-20px);
+}
+
+.ab-key-image {
+  width: 250px;
+  height: 250px;
+  max-width: 300px;
+}
+
+.ab-key-description,
+.ab-rad-description {
+  margin-top: 10px;
+  color: black;
+  font-size: 18px;
+}
+
+.ab-rad-name {
+  margin-top: 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Company History Section */
+#ab-company-history {
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Common Button Style */
+.ab-common-btn {
+  margin-top: 20px;
+}
+
+.ab-common-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9b0b77;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.ab-common-btn a:hover {
+  background-color: rgb(169, 77, 123);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #f15858;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* animations */
+.bold {
+  font-weight: bold;
+}

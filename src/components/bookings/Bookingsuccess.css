@@ -1,0 +1,63 @@
+.booking-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 999;
+}
+ 
+.booking-card {
+    background-color: #f2e6ff; /* Light purple */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    animation: popup-fade-in 0.5s forwards; /* Fade-in animation */
+    width: 60%; /* Set the width of the card */
+    margin: 0 auto; /* Center the card horizontally */
+}
+ 
+.booking-content {
+    text-align: center;
+}
+ 
+.booking-text-success {
+    color: rgb(169, 77, 123); /* Change color to green */
+    font-size: 1.2rem;
+}
+ 
+.booking-text-danger {
+    color: red;
+    font-size: 1.2rem;
+}
+ 
+.booking-close-button {
+    background-color: rgb(169, 77, 123); /* Blue color for close button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+.booking-close-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+ 
+/* Animation */
+@keyframes popup-fade-in {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

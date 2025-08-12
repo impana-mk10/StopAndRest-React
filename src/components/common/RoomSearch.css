@@ -1,0 +1,27 @@
+.container-shadow {
+  padding-top: 30px;
+  /*padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;  Add padding above the RoomSearch component */
+}
+
+.room-search-card {
+  background-color: #e7dfe4; /* Light background color for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect to the card */
+}
+
+.room-search-form {
+  margin-top: 20px; /* Add margin above the form */
+}
+
+.room-search-loading {
+  margin-top: 20px; /* Add margin above the loading message */
+}
+
+.room-search-results {
+  margin-top: 20px; /* Add margin above the search results */
+}
+
+.room-search-error {
+  margin-top: 20px; /* Add margin above the error message */
+}

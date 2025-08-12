@@ -1,0 +1,35 @@
+/* Set the background image and styles for the login page */
+.login-background {
+    background-image: url('../assets/images/home5.jpg'); /* Use your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: fixed; /* Use fixed to keep the background stationary */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card {
+    background: rgba(255, 255, 255, 0.85); /* Add some transparency to the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height: 450px; /* Decreased the height of the login card */
+    width: 500px; 
+  }
+  
+  .btn-hotel {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-hotel:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  

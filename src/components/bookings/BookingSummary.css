@@ -1,0 +1,39 @@
+/* BookingSummary.css */
+
+.booking-summary-card {
+    
+    width: 100%;
+    padding-left: 10px;
+    height: 510px; /* Adjust the height as needed */
+    margin-left:5%;
+    margin-right: 0%;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .booking-summary-card h4 {
+    color: #333;
+  }
+  
+  .booking-summary-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .booking-summary-card .hotel-color {
+    color: rgb(169, 77, 123);
+  }
+  
+  .booking-summary-card .spinner-border {
+    margin-right: 50px;
+  }
+  
+  .booking-summary-card button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .booking-summary-card .d-flex {
+    height: 100px; /* Adjust height for spinner container */
+  }
+  

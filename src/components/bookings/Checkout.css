@@ -1,0 +1,63 @@
+.checkout-container {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../assets/images/parrall.jpg') ;/* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ 
+.checkout-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to improve readability */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+ 
+.room-photo {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+ 
+.room-details {
+    height: auto; /* Change height to auto to accommodate full description */
+    overflow: auto;
+}
+ 
+.room-type, .room-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+.description {
+    line-height: 1.6;
+    /* Adjust font size or other styles as needed */
+}
+ 
+.btn-hotel {
+    /* Keeping button color as before */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+ 
+.btn-hotel:hover {
+    background-color: #0056b3;
+}
+ 
+.description-container {
+    height: 300px; /* Adjust the height as needed */
+    overflow-y: auto; /* Add a vertical scroll bar if content exceeds container height */
+    padding-right: 15px; /* Add some padding to prevent content from touching the scrollbar */
+}
+.overlay {
+    transition: opacity 1s ease-in-out;
+  }
+ 
+  .overlay.fade-out {
+    opacity: 0;
+  }

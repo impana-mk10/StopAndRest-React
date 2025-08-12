@@ -1,0 +1,25 @@
+/* Specific styles for the booking form card */
+.booking-form-card {
+  padding: 20px;
+  margin-top: 0px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.body-page {
+  background-image: url("../assets/images/bookingform.jpg"); /* Change the URL to the path of your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* This ensures the background image stays fixed while scrolling */
+  background-position: center;
+  font-family: Arial, sans-serif;
+  /* Add any additional styles for the booking page container */
+}
+
+/* .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: add a semi-transparent background to the container for better readability */
+/* padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }  */

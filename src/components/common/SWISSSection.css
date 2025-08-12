@@ -1,0 +1,58 @@
+.swiss-section-wrapper {
+    position: absolute;
+  }
+  
+  .avatar {
+    position: absolute;
+  }
+  
+  .avatar:nth-child(odd) {
+    top: calc(50% - 120px);
+  }
+  
+  .avatar:nth-child(even) {
+    bottom: calc(50% - 120px);
+  }
+  
+  .avatar img {
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+  
+  .avatar-flag {
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+  
+  .avatar img:hover, .avatar-flag:hover {
+    transform: translateY(-10px);
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  .text-header {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .text-header span {
+    color: #007bff;
+  }
+  
+  .text-body {
+    font-size: 16px;
+  }
+  .swiss-card{
+    .swiss-card {
+      width: 1000px;
+      height: 400px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px; /* Curved edges */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: rgb(236, 206, 229); /* Box shadow effect */
+    }
+  }

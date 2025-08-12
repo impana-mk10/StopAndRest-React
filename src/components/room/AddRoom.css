@@ -1,0 +1,58 @@
+.navbar-container {
+    background-color: #fff; /* Apply background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Apply box shadow */
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+    padding: 0 1rem;
+  }
+  
+  
+  .navbar-button {
+    align-items: center;
+    background: #fff;
+    border: none;
+    border-radius: 1.25rem;
+    box-shadow: inset 0 0 0 .125rem #dddfe4;
+    box-sizing: border-box;
+    color: #121417;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: .00625rem;
+    line-height: 1.25rem;
+    outline: none;
+    padding: .625rem 1rem;
+    position: relative;
+    text-decoration: none;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  
+  /* .icon-container {
+    width: 16px;
+    height: 16px;
+  } */
+  
+  .button-text {
+    font-size: 14px;
+    color: #333;
+  }
+  .navbar-button .icon-start {
+    padding-right: .5rem;
+}
+
+.icon-container[data-v-b37ce526] {
+    display: inline-flex;
+}
+
